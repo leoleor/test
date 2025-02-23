@@ -44,7 +44,7 @@ export default hopeTheme({
   logo: "/logo.svg",
 
   // 仓库配置，用于在导航栏中显示仓库链接。
-  repo: "leoleor/Lion_Blog",
+  repo: "leoleor/test",
 
   // 文档在仓库中的目录
   docsDir: "src",
