@@ -125,6 +125,8 @@ jobs:
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           # 服务器用户名
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
+          # 远程端口问题
+          REMOTE_PORT: 22 -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAcceptedKeyTypes=+ssh-rsa
           # 先清空目标目录
           ARGS: '-avzr --delete'
           # 打包后输出的文件
